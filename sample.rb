@@ -8,6 +8,12 @@ puts <<~TEXT
 
 よろしくお願いします
  
- SELECT*FROM USERS;
+ SELECT*FROM USERS; 
 
 TEXT
+
+users = ["saitou", "taira", "yamada","hayashi"]
+
+users.each do |user|
+     puts user
+end
